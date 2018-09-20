@@ -1,0 +1,13 @@
+body {
+  background-image: url(../images/cr-silhouettes.png);
+  background-color: #f3f3f3;
+  background-size: auto;
+  background-position: right bottom;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+  
+
+.header {
+  background-color: #000000;
+}
