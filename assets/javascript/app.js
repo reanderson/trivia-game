@@ -138,7 +138,7 @@ function questionTimeOut() {
   // Increment incorrect answers
   incorrectCount++;
 
-  questionsHTML.text("<h4>Time's up!</h4>")
+  questionsHTML.html("<h4>Time's up!</h4>")
   toNextQ()
 }
 

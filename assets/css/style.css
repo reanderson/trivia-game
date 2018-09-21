@@ -5,9 +5,28 @@ body {
   background-position: right bottom;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  font-family: 'Acme', sans-serif;
+}
+
+h1 {
+  font-family: 'Cinzel', serif;
+}
+
+button {
+  font-family: 'Catamaran', sans-serif;
 }
   
 
 .header {
   background-color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-image: none;
+  }
+
+  img {
+    display: none;
+  }
 }
